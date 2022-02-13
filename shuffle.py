@@ -3,12 +3,12 @@ import json
 
 # Expects full json corresponding to image files. And image files with name <Index>_<TRAITS_UUID>.png
 
-IMAGES_DIR = r"/mnt/c/Users/rings/Desktop/Assets/output/"
-JSON_IN_FILE = r"/mnt/c/Users/rings/Desktop/Assets/output/tokens_md_ord.json"
-JSON_OBJ_NAME = "Genesys_1024_Mumbai"
-BASE_URL = "http://M4sk5.art/" + JSON_OBJ_NAME + "/"
-TNAME_PREF = '#'
-TDESC_PREF = '#'
+IMAGES_DIR = "Path to images folder."
+JSON_IN_FILE = "Path to metadata file. like /home/project/tokens_md_ord.json"
+JSON_OBJ_NAME = "Json object name from file - collection name"
+BASE_URL = "Base URL for images file - like www.imageserver.com"
+TNAME_PREF = '#' #Prefix to replace index in json Name field.
+TDESC_PREF = '#' #Prefix to replace index in json Description field.
 JSON_OUT_FILE = "tokens_md_shuff.json"
 
 def getFilenameWithNewIndex(old_url, new_index):
