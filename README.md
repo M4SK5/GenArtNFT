@@ -1,11 +1,11 @@
 # GenArtNFT
-Smart contract and generation script for a full ERC-721 Generative Art NFT collection. 
+Smart contract and generation scripts for a complete ERC-721 Generative Art NFT collection. 
 It allows combining image elements with multiple combinations to create the complete images and accompanying metadata in json format. Includes -
 
 ## Contents
-1. Python scripts to combine collection image parts and generate json metadata for a full collection.
-2. Python shuffle script to randomize collection order while maintaining correct id and metadata.
-3. Solidity contract for a ERC-721 
+1. nftgen.py - Python script to combine collection image parts and generate json metadata for a full collection.
+2. shuffle.py - Python script to randomize collection order while maintaining correct id and metadata.
+3. M4sk5Minter.sol - Solidity contract for an enumerable ERC-721 compatible NFT collection.
 
 ## Contract Overview
 
@@ -18,8 +18,10 @@ Includes two minting options -
   
 ## Prequisites 
 
-Use an IDE such as Remix to compile and interact with the contract. I've deployed a similar version successfully to Eth and Polygon testnets. 
-
+- Use an IDE such as Remix to compile and interact with the contract. I've deployed a similar version successfully to Eth and Polygon testnets. 
+- Python installed
+- Image part files devided into category folders.
+  
 ## Usage
 
 Edit all parameters inside Python files.
