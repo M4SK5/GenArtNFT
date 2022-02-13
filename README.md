@@ -19,7 +19,7 @@ Includes two minting options -
 ## Prequisites 
 
 - Use an IDE such as Remix to compile and interact with the contract. I've deployed a similar version successfully to Eth and Polygon testnets. 
-- Python installed
+- Python installed with PIL, json and uuid libraries. 
 - Image part files devided into category folders.
   
 ## Usage
