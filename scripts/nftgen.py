@@ -19,11 +19,8 @@ TNAME = "Token Name in json"
 TDESC = "Token description in json"
 IMG_EXT = "image file extentions"
 
-
 OUTPUT_PATH = "Output path for images and json file."
 JSON_OUTPUT_FILE = OUTPUT_PATH + "tokens_md_ord.json"
-
-
 
 #lists of image parts files for each trait, and for each their respective trait names
 #Change trait name and file names as needed.
